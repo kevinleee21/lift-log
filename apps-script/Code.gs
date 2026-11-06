@@ -27,10 +27,16 @@ const SEED_FAVORITES = [
   ['Machine High Row', 'Back'],
   ['Cable Hammer Curl', 'Arms'],
   ['Incline Dumbbell Biceps Curl', 'Arms'],
+  ['Lat Pull-down', 'Back'],
+  ['Machine Pullover', 'Back'],
   // Push
   ['Incline Smith Machine Bench Press', 'Chest'],
+  ['Bench Press', 'Chest'],
+  ['Machine Chest Press', 'Chest'],
   ['Pec Deck Fly', 'Chest'],
   ['Triceps Press-down', 'Arms'],
+  ['Machine Lateral Raise', 'Shoulders'],
+  ['Dips', 'Chest'],
   // Legs
   ['45-degree Leg Press', 'Legs'],
   ['Leg Extensions', 'Legs'],
