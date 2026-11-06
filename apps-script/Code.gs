@@ -22,6 +22,20 @@ const SCHEMA = {
 // Favorite exercises. setup() adds any that are missing with is_favorite = TRUE.
 // Format: ['Exercise name', 'Muscle group']
 const SEED_FAVORITES = [
+  // Pull
+  ['Pull-up', 'Back'],
+  ['Machine High Row', 'Back'],
+  ['Cable Hammer Curl', 'Arms'],
+  ['Incline Dumbbell Biceps Curl', 'Arms'],
+  // Push
+  ['Incline Smith Machine Bench Press', 'Chest'],
+  ['Pec Deck Fly', 'Chest'],
+  ['Triceps Press-down', 'Arms'],
+  // Legs
+  ['45-degree Leg Press', 'Legs'],
+  ['Leg Extensions', 'Legs'],
+  ['Lying Leg Curl', 'Legs'],
+  ['Hip Adduction Machine', 'Legs'],
 ];
 
 const WRITE_ACTIONS = ['addSets', 'updateSet', 'deleteSet', 'addExercise', 'saveTemplate', 'deleteTemplate'];
