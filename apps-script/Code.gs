@@ -89,6 +89,9 @@ function setup() {
   });
   appendRows_('Exercises', toAdd);
 
+  // Optional one-time import (LiftTrackImport.gs is private and not in the public repo).
+  if (typeof importLiftTrack_ === 'function') importLiftTrack_();
+
   // Remove the empty default tab.
   const s1 = ss.getSheetByName('Sheet1');
   if (s1 && s1.getLastRow() === 0 && ss.getSheets().length > 1) ss.deleteSheet(s1);

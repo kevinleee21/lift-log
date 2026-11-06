@@ -18,6 +18,7 @@ A personal workout tracker that runs as a phone app (PWA). It costs $0 to run an
 ### 2. Add the backend
 1. In the Sheet: **Extensions → Apps Script**.
 2. Delete everything in `Code.gs`, paste in the contents of `apps-script/Code.gs`, and press **⌘S**.
+   - Optional one-time history import: click **+ → Script**, name it `LiftTrackImport`, paste your private `LiftTrackImport.gs`, and press **⌘S**. That file is never committed to this public repo.
 3. In the toolbar's function dropdown, pick **setup** and click **Run**.
 4. Click **Review permissions**, choose your account, then **Advanced → Go to … (unsafe) → Allow**. This is your own script, so it's safe.
 5. The **Execution log** shows `Your API token is: …`. Copy the token.
